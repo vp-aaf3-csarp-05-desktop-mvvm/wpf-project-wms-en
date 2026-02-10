@@ -5,6 +5,7 @@
     /// </summary>
     public class EmployeeViewModel
     {
+        
         /// <summary>
         /// Dolgozó neve
         /// </summary>
@@ -13,7 +14,7 @@
         /// <summary>
         /// Adószám
         /// </summary>
-        public string TaxID { get; } = "83649573-3-85";
+        public string TaxNumber { get; } = "83649573-3-85";
 
         /// <summary>
         /// Kivett szabadnapok száma
