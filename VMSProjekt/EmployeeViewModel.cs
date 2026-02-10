@@ -1,10 +1,24 @@
 ﻿namespace VMSProjekt
 {
+    /// <summary>
+    /// Dolgozó adatok megjelenítéshez (szabadnapkezelés)
+    /// </summary>
     public class EmployeeViewModel
     {
+        /// <summary>
+        /// Dolgozó neve
+        /// </summary>
         public string Name { get; } = "Nagy Anna";
-        public string TaxID { get; } = "43875629-4-38";
-        public int FreeDays { get; } = 15;
+        
+        /// <summary>
+        /// Adószám
+        /// </summary>
+        public string TaxID { get; } = "83649573-3-85";
+
+        /// <summary>
+        /// Kivett szabadnapok száma
+        /// </summary>
+        public int DaysOff { get; } = 6;
 
     }
 }
